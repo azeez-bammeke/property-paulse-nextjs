@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-
 module.exports = {
     content: [
         "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,11 +8,11 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                scans: ['Poppins', 'sans-serif']
+                sans: ['Poppins', 'sans-serif'],
             },
             gridTemplateColumns: {
-                '70/30': '70% 28%'
-            }
+                '70-30': '70% 30%',
+            },
         },
     },
     plugins: [],
